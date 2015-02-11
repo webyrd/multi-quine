@@ -4,7 +4,7 @@ Generation of simple multi-language quines using relational interpreters for two
 This is really a proof-of-concept, given that the languages are almost identical.  What are languages with more interesting differences that would be fun to implement?
 
 
-Language 1 supports 'cons' but not 'list', while language 2 supports 'list' but not 'cons'.
+Language 1 supports `cons` but not `list`, while language 2 supports `list` but not `cons`.
 
 Here is a pair of programs from the "multi-lang-quines-langs-1-and-2-non-cheeky" multi-language quine inference test.
 
