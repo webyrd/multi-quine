@@ -68,3 +68,6 @@ Proof, in Scheme, that Language 2 doesn't use `cons`:
 TODO
 * What languages/features would be more interesting?  
 * How many different languages could we handle?
+
+
+Thanks to Seth Schroeder (@foogoof on Twitter) for inspiring me to finally try this experiment!  :)
