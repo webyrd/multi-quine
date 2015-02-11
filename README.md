@@ -6,7 +6,7 @@ This is really a proof-of-concept, given that the languages are almost identical
 
 Language 1 supports 'cons' but not 'list', while language 2 supports 'list' but not 'cons'.
 
-See the test "multi-lang-quines-langs-1-and-2-non-cheeky" for an example of multi-language quine inference:
+Here is a pair of programs from the "multi-lang-quines-langs-1-and-2-non-cheeky" multi-language quine inference test.
 
 Language 1 program using `cons` but not `list` (that is, all occurrences of `list` are quoted):
 
