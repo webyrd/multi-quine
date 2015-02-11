@@ -29,7 +29,7 @@ which evaluates to the Language 2 program, which uses `list` but not `cons` (tha
            (list 'quote (list (list 'quote _.0))))))
 ```
 
-which in turn evaluates to the Language 2 program...
+which in turn evaluates to the Language 1 program...
 
 
 Proof, in Scheme, that the Language 1 program doesn't use `list`:
