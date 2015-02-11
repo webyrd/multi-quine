@@ -66,7 +66,7 @@ Proof, in Scheme, that Language 2 doesn't use `cons`:
 ```
 
 TODO
-* What languages/features would be more interesting?  
+* What languages/features would be more interesting?  Perhaps call-by-value vs. call-by-name.  Or variadic functions + `apply` vs. a Curried language.
 * How many different languages could we handle?
 
 
