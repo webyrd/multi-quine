@@ -1,6 +1,9 @@
 # multi-quine
 Generation of simple multi-language quines using relational interpreters for two Scheme-like languages.
 
+This is really a proof-of-concept, given that the languages are almost identical.  What are languages with more interesting differences that would be fun to implement?
+
+
 Language 1 supports 'cons' but not 'list', while language 2 supports 'list' but not 'cons'.
 
 See the test "multi-lang-quines-langs-1-and-2-non-cheeky" for an example of multi-language quine inference:
@@ -71,3 +74,7 @@ TODO
 
 
 Thanks to Seth Schroeder (@foogoof on Twitter) for inspiring me to finally try this experiment!  :)
+
+Resources:
+
+* Quine relay: https://github.com/mame/quine-relay
