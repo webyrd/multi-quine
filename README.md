@@ -14,7 +14,7 @@ Here is the last (and most interesting) pair of programs from the "multi-lang-qu
   (eval-expo-lang-2 q '() p))
 ```
 
-Here is the Language 1 program, `p`, using `cons` but not `list`.  That is, all occurrences of `list` are quoted:
+The program `p` from Language 1 uses `cons` but not `list`.  That is, all occurrences of `list` are quoted:
 
 ```
 (cons
@@ -25,7 +25,7 @@ Here is the Language 1 program, `p`, using `cons` but not `list`.  That is, all 
               (list 'quote (list (list 'quote _.0)))))))
 ```
 
-Program `p` evaluates to a program in Language 2, `q`, which uses `list` but not `cons`.  That is, all occurrences of `cons` are quoted:
+Program `p` evaluates to a program `q` in Language 2, which uses `list` but not `cons`.  That is, all occurrences of `cons` are quoted:
 
 ```
 ((lambda (_.0)
