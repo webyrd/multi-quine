@@ -1,7 +1,7 @@
 # multi-quine
 Generation of simple multi-language quines using relational interpreters for two Scheme-like languages.
 
-This is really a proof-of-concept, given that the languages are almost identical.  What are languages with more interesting differences that would be fun to implement?
+This is really a proof-of-concept, given that the languages are almost identical.  Which languages with more interesting differences should we implement?
 
 
 Language 1 supports `cons` but not `list`, while language 2 supports `list` but not `cons`.
@@ -69,7 +69,7 @@ Proof, in Scheme, that the Language 2 program doesn't use `cons`:
 ```
 
 TODO
-* What languages/features would be more interesting?  Perhaps call-by-value vs. call-by-name.  Or variadic functions + `apply` vs. a Curried language.
+* Which languages/features would be more interesting?  Perhaps call-by-value vs. call-by-name.  Or variadic functions + `apply` vs. a Curried language.
 * How many different languages could we handle?
 
 
