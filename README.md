@@ -32,7 +32,7 @@ which evaluates to the Language 2 program, which uses `list` but not `cons` (tha
 which in turn evaluates to the Language 2 program...
 
 
-Proof, in Scheme, that Language 1 doesn't use `list`:
+Proof, in Scheme, that the Language 1 program doesn't use `list`:
 
 ```
 (let ((list 'undefined!))
@@ -50,7 +50,7 @@ Proof, in Scheme, that Language 1 doesn't use `list`:
 ```
 
 
-Proof, in Scheme, that Language 2 doesn't use `cons`:
+Proof, in Scheme, that the Language 2 program doesn't use `cons`:
 
 ```
 (let ((cons 'undefined!))
