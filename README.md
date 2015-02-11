@@ -16,7 +16,7 @@ Language 1 program using `cons` but not `list` (that is, all occurrences of `lis
               (list 'quote (list (list 'quote _.0)))))))
 ```
 
-which evaluates to the Language 2 program using `list` but not `cons` (that is, all occurrences of `cons` are quoted):
+which evaluates to the Language 2 program, which uses `list` but not `cons` (that is, all occurrences of `cons` are quoted):
 
 ```
 ((lambda (_.0)
