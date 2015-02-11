@@ -6,9 +6,15 @@ This is really a proof-of-concept, given that the languages are almost identical
 
 Language 1 supports `cons` but not `list`, while language 2 supports `list` but not `cons`.
 
-Here is a pair of programs from the "multi-lang-quines-langs-1-and-2-non-cheeky" multi-language quine inference test.
+Here is the last (and most interesting) pair of programs from the "multi-lang-quines-langs-1-and-2-non-cheeky" multi-language quine inference test:
 
-Language 1 program using `cons` but not `list` (that is, all occurrences of `list` are quoted):
+```
+(run 17 (p q)
+  (eval-expo-lang-1 p '() q)
+  (eval-expo-lang-2 q '() p))
+```
+
+Here is the Language 1 program, `p`, using `cons` but not `list`.  That is, all occurrences of `list` are quoted:
 
 ```
 (cons
@@ -19,7 +25,7 @@ Language 1 program using `cons` but not `list` (that is, all occurrences of `lis
               (list 'quote (list (list 'quote _.0)))))))
 ```
 
-which evaluates to the Language 2 program, which uses `list` but not `cons` (that is, all occurrences of `cons` are quoted):
+Program `p` evaluates to a program in Language 2, `q`, which uses `list` but not `cons`.  That is, all occurrences of `cons` are quoted:
 
 ```
 ((lambda (_.0)
@@ -29,7 +35,7 @@ which evaluates to the Language 2 program, which uses `list` but not `cons` (tha
            (list 'quote (list (list 'quote _.0))))))
 ```
 
-which in turn evaluates to the Language 1 program...
+Of course, `q` in turn evaluates to `p`...
 
 
 Proof, in Scheme, that the Language 1 program doesn't use `list`:
