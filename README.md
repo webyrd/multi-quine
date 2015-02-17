@@ -1,10 +1,10 @@
 # multi-quine
 Generation of simple multi-language quines using relational interpreters for two Scheme-like languages.
 
-This is really a proof-of-concept, given that the languages are almost identical.  Which languages with more interesting differences should we implement?
+This is really a proof-of-concept, given that both languages are just variants of Scheme.  Which languages with more interesting differences should we implement?
 
 
-Language 1 supports `cons` but not `list`, while language 2 supports `list` but not `cons`.
+Language 1 supports `cons` but not `list`, while language 2 supports `list` but not `cons`.  Language 1 also supports 'eval' and lazy $cons/$car/$cdr.  Thanks to Dan Friedman for the lazy cons.
 
 Here is the last (and most interesting) pair of programs from the "multi-lang-quines-langs-1-and-2-non-cheeky" multi-language quine inference test:
 
